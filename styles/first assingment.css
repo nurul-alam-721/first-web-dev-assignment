@@ -184,31 +184,39 @@
 
 
 /* opinion section style start */
-
-.opinion-table{
-        background-color: white;
-        border-radius: 20px;
+.table-section{
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+table{
         padding: 30px;
         width: 100%;
-       
-    }
- th, td {
-        border: 1px solid rgb(228, 206, 206);
-        padding: 8px;
-        text-align: left;
         border-collapse: collapse;
+        border-radius: 25px;
     }
-    #table-head{
-        border: none;
+table> th, td {
+        border: 1px solid rgb(228, 206, 206);
+        padding: 10px 10px;
+        align-items: center;
     }
 
-    .agreement{
+.table-head> th{
+        background-color: #C6E4D6;
+        padding:20px 10px ;
+        text-align: left;
+    }
+
+    
+.agreement{
         padding: 10px 15px;
-        align-items: center;
         background-color: #C6E4D6;
         border-radius: 5px;
     }
-/* opinion section not done */
+.agreement:hover{
+    background-color: #a2beee;
+}
+
 /* recent news styles start */
 
 .recent-news{
@@ -275,6 +283,9 @@ input[type="email"]{
     padding: 15px 30px;
     border-radius: 0px 8px 8px 0px;
     border: none;
+}
+.subscribe-btn:hover{
+    background-color: #5a8de6;
 }
 .input-and-subscribe-btn{
     display: flex;
