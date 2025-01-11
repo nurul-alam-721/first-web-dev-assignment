@@ -188,23 +188,26 @@
 .opinion-table{
         background-color: white;
         border-radius: 20px;
-        padding: 25px;
+        padding: 30px;
+        width: 100%;
        
     }
-
- .table-head{
-        display: flex;
-        justify-content:space-between;
-        background-color: #C6E4D6;
-        border:2px solid #C6E4D6 ;
-        max-width: 100%;;
+ th, td {
+        border: 1px solid rgb(228, 206, 206);
+        padding: 8px;
+        text-align: left;
+        border-collapse: collapse;
+    }
+    #table-head{
+        border: none;
     }
 
-#agreement{
-    background-color:#C6E4D6 ;
-}
-
-
+    .agreement{
+        padding: 10px 15px;
+        align-items: center;
+        background-color: #C6E4D6;
+        border-radius: 5px;
+    }
 /* opinion section not done */
 /* recent news styles start */
 
