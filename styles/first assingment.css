@@ -185,7 +185,24 @@
 
 /* opinion section style start */
 
+.opinion-table{
+        background-color: white;
+        border-radius: 20px;
+        padding: 25px;
+       
+    }
 
+ .table-head{
+        display: flex;
+        justify-content:space-between;
+        background-color: #C6E4D6;
+        border:2px solid #C6E4D6 ;
+        max-width: 100%;;
+    }
+
+#agreement{
+    background-color:#C6E4D6 ;
+}
 
 
 /* opinion section not done */
