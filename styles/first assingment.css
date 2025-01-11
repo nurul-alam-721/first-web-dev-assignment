@@ -14,6 +14,7 @@
     color: white;
     padding: 15px 30px;
     border-radius: 8px;
+    border: none;
 
   }
   .btn_primary:hover{
@@ -132,6 +133,7 @@
     color: white;
     padding: 12px 20px;
     border-radius: 8px;
+    border: none;
 }
 .lm-btn-1{
     background-color: #5490F5;
@@ -202,12 +204,12 @@
     border-radius: 20px;
 }
 
-/* donation styles start */
+/* donation section styles start */
 
 .amount-container{
     display: flex;
-    margin: 35px 105px;
-    gap: 25px;
+    margin: 30px 110px;
+    justify-content: space-between;
 }
 .donation-amount{
     background-color: white;
@@ -231,7 +233,31 @@ input[type="text"]{
    width: 800px;
    height: 50px;
    text-align: center;
-   margin: 0 auto;
+   margin: 15px auto;
    border: none;
-   
+
+}
+
+/* Subscribe Newsletter section styles start */
+.subscribe-section{
+    background-color: #C6E4D6;
+    margin: 80px 160px;
+    padding: 40px;
+}
+input[type="email"]{
+    width: 700px;
+   height: 45px;
+   border: none;
+   padding-left: 20px;
+}
+.subscribe-btn{
+    background-color: #006A50;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+}
+.input-and-subscribe-btn{
+    display: flex;
+    margin: 25px 120px;
 }
